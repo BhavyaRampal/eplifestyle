@@ -1,0 +1,805 @@
+@media (min-width: 1200px) {
+    .logo{
+        width:12%;
+        cursor:pointer;
+    }
+    button{
+        padding: 9px 25px;
+        background-color: #0075BF;
+        border:none;
+        border-radius: 12px;
+        cursor:pointer;
+        transition: all 0.3s ease 0s;
+        color:white;
+        font-size:120%;
+    }
+    .b-head{
+        padding:7% 0;
+    }
+    .ellipse{
+        position:absolute;
+        top:-40%;
+        left:-40%;
+        width:80%;
+        z-index:-1;
+    }
+    .head{
+        font-size:350%;
+        /* font-weight:900; */
+        line-height: 130%;
+    }
+    .head1{
+        font-size:150%;
+        /* font-weight:900; */
+    }
+    .empower{
+        width:100%;
+        align-items: center;
+    }
+    .box{
+        border:none;
+        border-radius:15px;
+        background-color:#E9F3F9;
+        padding:10% 10%;
+        height:auto;
+    }
+    .about-us{
+        padding-top:150px;
+    }
+    .about-head{
+        font-size:300%;
+        color:#4A4A4A;
+        font-weight:700;
+    }
+    hr{
+        background-color:#0075BF;
+        border:none;
+        border-radius: 20px;
+        width:30%;
+        height:4px;
+        margin-left: 0;
+        margin-top:0%;
+    }
+    .about-body{
+        padding-top:8%;
+        font-size: 110%;
+        font-weight: 700;
+    }
+    .contact-body{
+        padding-top:8%;
+        font-size: 110%;
+        font-weight: 700;
+    }
+    .about-img{
+        width:80%;
+        text-align: center;
+    }
+    .grid > div {
+        padding: 20px 10px;
+        text-align: center;
+    }
+    .grid > div > img{
+        width:50%;
+        padding:5px 5px;
+    }
+    .ellipse1{
+        position:absolute;
+        top:-40%;
+        left:-30%;
+        width:60%;
+        z-index:-1;
+    }
+    .grid > div >p{
+        font-size:100%;
+        font-weight:700;
+    }
+    .contact{
+        padding:2% 10%;
+    }
+    form > input, textarea{
+        margin-bottom: 10px;
+        width:100%;
+        border:solid 1px #E0E0E0;
+        border-radius:8px;
+        height:30px;
+    }
+    form > label{
+        padding-top:7px;
+    }
+    .submit-btn{
+        padding: 5px 0;
+        background-color: #0075BF;
+        border:none;
+        border-radius: 12px;
+        cursor:pointer;
+        transition: all 0.3s ease 0s;
+        color:white;
+        font-size:100%;
+        height:auto;
+        width:100%;
+        
+    }
+    i{
+        width:200%;
+    }
+    ul > li{
+        padding:12px 5px;
+        font-size:120%;
+    }
+    ul > li > img{
+        padding-right:10px;
+    }
+    .bottom{
+        width:100%;
+        height:1px;
+        background-color:#868D96;
+        border-radius: 20px;
+        margin-top:50px;
+    }
+    .hr1{
+        text-align:center;
+        margin-left:auto;
+        width:12%;
+    }
+    .logoc{
+        width:10%;
+        padding:0%;
+    }
+    .contact-img{
+        width:110%;
+        margin-left:-50px;
+    }
+    .thanks{
+        font-size:200%;font-weight:700;line-height:250%;
+        margin-top:30%;
+    }
+}
+@media (max-width: 1200px){
+    .logo{
+        width:13%;
+        cursor:pointer;
+    }
+    button{
+        padding: 9px 25px;
+        background-color: #0075BF;
+        border:none;
+        border-radius: 12px;
+        cursor:pointer;
+        transition: all 0.3s ease 0s;
+        color:white;
+        font-size:120%;
+    }
+    .b-head{
+        padding:5% 0;
+    }
+    .ellipse{
+        position:absolute;
+        top:-40%;
+        left:-40%;
+        width:80%;
+        z-index:-1;
+    }
+    .head{
+        font-size:350%;
+        /* font-weight:900; */
+        line-height: 130%;
+        
+        padding:0 5%;
+    }
+    .head1{
+        font-size:130%;
+        padding:0 5%;
+        /* font-weight:900; */
+    }
+    .empower{
+        width:100%;
+        align-items: center;
+        margin-top:10%;
+    }
+    .box{
+    border:none;
+    border-radius:15px;
+    background-color:#E9F3F9;
+    padding:10% 10%;
+    height:auto;
+}
+.about-us{
+    padding-top:8%;
+}
+.about-head{
+    font-size:300%;
+    color:#4A4A4A;
+    font-weight:700;
+}
+hr{
+    background-color:#0075BF;
+    border:none;
+    border-radius: 20px;
+    width:32%;
+    height:4px;
+    margin-left: 0;
+    margin-top:0%;
+}
+.about-body{
+    padding-top:8%;
+    font-size: 100%;
+    font-weight: 700;
+}
+.contact-body{
+    padding-top:8%;
+    font-size: 100%;
+    font-weight: 700;
+}
+.about-img{
+    width:80%;
+    text-align: center;
+}
+.grid > div {
+    padding: 20px 10px;
+    text-align: center;
+}
+.grid > div > img{
+    width:45%;
+    padding:5px 5px;
+}
+.grid > div >p{
+    font-size:100%;
+    font-weight:700;
+}
+.ellipse1{
+    position:absolute;
+    top:-40%;
+    left:-30%;
+    width:60%;
+    z-index:-1;
+}
+.contact{
+    padding:2% 10%;
+}
+form > input, textarea{
+    margin-bottom: 10px;
+    width:130%;
+    border:solid 1px #E0E0E0;
+    border-radius:8px;
+    height:30px;
+}
+form > label{
+    padding-top:7px;
+}
+.submit-btn{
+    padding: 5px 0;
+    background-color: #0075BF;
+    border:none;
+    border-radius: 12px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+    color:white;
+    font-size:100%;
+    height:auto;
+    width:130%;
+}
+i{
+    width:200%;
+}
+ul > li{
+    padding:12px 5px;
+    font-size:120%;
+}
+ul > li > img{
+    padding-right:10px;
+}
+.bottom{
+    width:100%;
+    height:1px;
+    background-color:#868D96;
+    border-radius: 20px;
+    margin-top:20px;
+}
+.hr1{
+    text-align:center;
+    margin-left:auto;
+    width:12%;
+}
+.logoc{
+    width:10%;
+    padding:0%;
+}
+.contact-img{
+    width:100%;
+    margin-left:-10px;
+    margin-top:15%;
+}
+.thanks{
+    font-size:180%;font-weight:700;line-height:250%;
+    margin-top:25%;
+}
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .logo{
+        width:15%;
+        cursor:pointer;
+    }
+    button{
+        padding: 9px 25px;
+        background-color: #0075BF;
+        border:none;
+        border-radius: 12px;
+        cursor:pointer;
+        transition: all 0.3s ease 0s;
+        color:white;
+        font-size:120%;
+    }
+    .b-head{
+        padding:0% 0;
+        text-align: center;
+    }
+    .ellipse{
+        position:absolute;
+        top:-60%;
+        left:-40%;
+        width:80%;
+        z-index:-1;
+    }
+    .head{
+        font-size:300%;
+        /* font-weight:900; */
+        line-height: 130%;
+    }
+    .head1{
+        font-size:120%;
+        /* font-weight:900; */
+    }
+    .empower{
+        width:70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:10%;
+    }
+    .box{
+    border:none;
+    border-radius:15px;
+    background-color:#E9F3F9;
+    padding:10% 10%;
+    height:auto;
+}
+.about-us{
+    padding-top:10%;
+    padding:0% 15%;
+    margin:5% 0;
+}
+.about-head{
+    font-size:300%;
+    color:#4A4A4A;
+    font-weight:700;
+}
+hr{
+    background-color:#0075BF;
+    border:none;
+    border-radius: 20px;
+    width:32%;
+    height:4px;
+    margin-left: 0;
+    margin-top:0%;
+}
+.about-body{
+    padding-top:8%;
+    font-size: 100%;
+    font-weight: 700;
+}
+.contact-body{
+    padding-top:8%;
+    font-size: 100%;
+    font-weight: 700;
+}
+.about-img{
+    display:none;
+}
+.about-img1{
+    display:block;
+    width:60%;
+    margin:8% auto;
+}
+.grid > div {
+    padding: 20px 10px;
+    text-align: center;
+}
+.grid > div > img{
+    width:60%;
+    padding:5px 5px;
+}
+.grid > div >p{
+    font-size:100%;
+    font-weight:700;
+}
+.ellipse1{
+    position:absolute;
+    top:-20%;
+    left:-70%;
+    width:100%;
+    z-index:-1;
+}
+.contact{
+    padding:2% 10%;
+}
+form > input, textarea{
+    margin-bottom: 10px;
+    width:100%;
+    border:solid 1px #E0E0E0;
+    border-radius:8px;
+    height:30px;
+}
+form > label{
+    padding-top:7px;
+}
+.submit-btn{
+    padding: 5px 0;
+    background-color: #0075BF;
+    border:none;
+    border-radius: 12px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+    color:white;
+    font-size:100%;
+    height:auto;
+    width:100%;
+}
+i{
+    width:200%;
+}
+ul > li{
+    padding:12px 5px;
+    font-size:100%;
+}
+ul > li > img{
+    padding-right:10px;
+}
+.bottom{
+    width:100%;
+    height:1px;
+    background-color:#868D96;
+    border-radius: 20px;
+    margin-top:20px;
+}
+.hr1{
+    text-align:center;
+    margin-left:auto;
+    width:12%;
+}
+
+.foot > div > img{
+    width:100%;
+}
+.logoc{
+    width:15%;
+    padding:0%;
+}
+.contact-img{
+    width:80%;
+}
+.thanks{
+    font-size:180%;font-weight:700;line-height:250%;
+    margin-top:0%;
+    padding:0% 15%;
+    margin-bottom:-10%;
+}
+
+}
+
+@media (max-width: 767px){
+    .logo{
+        width:18%;
+        cursor:pointer;
+    }
+    button{
+        padding: 9px 25px;
+        background-color: #0075BF;
+        border:none;
+        border-radius: 12px;
+        cursor:pointer;
+        transition: all 0.3s ease 0s;
+        color:white;
+        font-size:90%;
+    }
+    .b-head{
+        padding:0% 0;
+        text-align: center;
+    }
+    .ellipse{
+        position:absolute;
+        top:-60%;
+        left:-40%;
+        width:80%;
+        z-index:-1;
+    }
+    .head{
+        font-size:280%;
+        /* font-weight:900; */
+        line-height: 130%;
+    }
+    .head1{
+        font-size:110%;
+        /* font-weight:900; */
+    }
+    .empower{
+        width:70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:10%;
+    }
+    .box{
+    border:none;
+    border-radius:15px;
+    background-color:#E9F3F9;
+    padding:10% 10%;
+    height:auto;
+}
+.about-us{
+    padding-top:10%;
+    padding:0% 15%;
+    margin:2% 0;
+}
+.about-head{
+    font-size:300%;
+    color:#4A4A4A;
+    font-weight:700;
+}
+.about-body{
+    padding-top:8%;
+    font-size: 100%;
+    font-weight: 700;
+}
+hr{
+    background-color:#0075BF;
+    border:none;
+    border-radius: 20px;
+    width:32%;
+    height:4px;
+    margin-left: 0;
+    margin-top:0%;
+}
+
+.contact-body{
+    padding-top:8%;
+    font-size: 100%;
+    font-weight: 700;
+}
+.about-img{
+    display:none;
+}
+.about-img1{
+    display:block;
+    width:60%;
+    margin:8% auto;
+}
+.grid > div {
+    padding: 20px 10px;
+    text-align: center;
+}
+.grid > div > img{
+    width:60%;
+    padding:5px 5px;
+}
+.grid > div >p{
+    font-size:100%;
+    font-weight:700;
+}
+.ellipse1{
+    position:absolute;
+    top:-5%;
+    left:-70%;
+    width:100%;
+    z-index:-1;
+}
+.contact{
+    padding:2% 10%;
+}
+form > input, textarea{
+    margin-bottom: 10px;
+    width:100%;
+    border:solid 1px #E0E0E0;
+    border-radius:8px;
+    height:30px;
+}
+form > label{
+    padding-top:7px;
+}
+.submit-btn{
+    padding: 5px 0;
+    background-color: #0075BF;
+    border:none;
+    border-radius: 12px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+    color:white;
+    font-size:100%;
+    height:auto;
+    width:100%;
+}
+i{
+    width:200%;
+}
+ul > li{
+    padding:12px 5px;
+    font-size:100%;
+}
+ul > li > img{
+    padding-right:10px;
+}
+.bottom{
+    width:100%;
+    height:1px;
+    background-color:#868D96;
+    border-radius: 20px;
+    margin-top:20px;
+}
+.hr1{
+    text-align:center;
+    margin-left:auto;
+    width:12%;
+}
+.foot > div{
+    margin-top:20px;
+    padding-left:10%;
+}
+.foot > div > img{
+    width:50%;
+    padding-left:8%;
+    padding-bottom:2%;
+}
+.logoc{
+    width:20%;
+    padding:0%;
+}
+.contact-img{
+    width:70%;
+    margin-top:10px;
+}
+.thanks{
+    font-size:200%;font-weight:700;line-height:250%;
+    margin-bottom:-50px;
+    margin-left:100px;
+    position:relative;
+    padding:40px 0;
+    top:0px;
+}
+.thanks{
+    font-size:150%;font-weight:700;line-height:250%;
+    margin-top:0%;
+    padding:0% 0%;
+    margin-bottom:-5%;
+    margin-left:0%;
+}
+}
+
+
+@media (max-width: 564px) {
+    .logo{
+        width:28%;
+        cursor:pointer;
+    }
+    .head{
+        font-size:240%;
+        /* font-weight:900; */
+        line-height: 130%;
+    }
+    .head1{
+        font-size:100%;
+        /* font-weight:900; */
+    }
+    .about-head{
+        font-size:230%;
+        color:#4A4A4A;
+        font-weight:700;
+    }
+    .about-body{
+        padding-top:8%;
+        font-size: 100%;
+        font-weight: 700;
+    }
+    .logoc{
+        width:20%;
+        padding:0%;
+    }
+    .contact-img{
+        width:70%;
+        margin-top:10px;
+    }
+    .thanks{
+        font-size:100%;font-weight:700;line-height:250%;
+        margin-top:0%;
+        padding:0% 0%;
+        margin-bottom:-5%;
+    }
+}
+@media (max-width: 480px){
+    .logo{
+        width:35%;
+        cursor:pointer;
+    }
+    .head{
+        font-size:220%;
+        /* font-weight:900; */
+        line-height: 130%;
+    }
+    .social{
+        font-size:100%;
+        padding-left:0px;
+    }
+    .about-img1{
+        display:block;
+        width:100%;
+        margin: auto;
+        margin-top:20px;
+    }
+    .about-head{
+        font-size:180%;
+        color:#4A4A4A;
+        font-weight:700;
+    }
+    .about-body{
+        padding-top:8%;
+        font-size: 90%;
+        font-weight: 500;
+    }
+    hr{
+        background-color:#0075BF;
+        border:none;
+        border-radius: 20px;
+        width:42%;
+        height:4px;
+        margin-left: 0;
+        margin-top:0%;
+    }
+    .hr1{
+        text-align:center;
+        margin-left:auto;
+        width:38%;
+    }
+    .foot > div{
+        margin-top:20px;
+        padding-left:0%;
+    }
+    .foot > div > img{
+        width:55%;
+        padding-left:8%;
+        padding-bottom:2%;
+    }
+    .logoc{
+        width:30%;
+        padding:0%;
+    }
+    .contact-img{
+        width:100%;
+        margin-top:10px;
+    }
+}
+
+@media (max-width:320px) {
+    .logo{
+        width:38%;
+        cursor:pointer;
+    }
+    .social{
+        font-size:80%;
+        margin-left:-15px;
+    }
+    .ellipse1{
+        position:absolute;
+        top:0%;
+        left:-50%;
+        width:100%;
+        z-index:-1;
+    }
+    
+    .foot > div > img{
+        width:80%;
+        padding-left:8%;
+        padding-bottom:2%;
+    }
+    .logoc{
+        width:38%;
+        padding:0%;
+    }
+}
